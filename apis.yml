@@ -1,7 +1,29 @@
 aid: cambium
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cambium.png
 name: Cambium
-description: Cambium is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cambium is an advanced materials company (Cambium Biomaterials, El Segundo, California,
+  founded 2019) that molecularly re-engineers polymers from first principles, pairing
+  AI-driven molecular design with chemistry, materials science, biology, and agile
+  domestic manufacturing to develop and scale next-generation materials roughly 10x
+  faster than traditional methods. Product lines span thermal protection systems,
+  high-temperature structural polymers, and laser/directed-energy protection, serving
+  aerospace, space, defense, motorsport, automotive, marine, and industrial customers.
+  Its SHD Advanced Composites business runs rapid-response prepreg manufacturing across
+  the US, UK, and EU. Backed by 8VC. Cambium publishes no public developer API, SDKs,
+  or developer portal; this profile captures corporate identity and probed domain
+  security only.
 url: https://raw.githubusercontent.com/api-evangelist/cambium/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Advanced Materials
+- Materials Science
+- Defense
+- Aerospace
+- Composites
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://cambiumglobal.com
+  url: https://cambium-usa.com
+- type: PrivacyPolicy
+  url: https://www.cambium-usa.com/privacy-policy/
+- type: Blog
+  url: https://www.cambium-usa.com/newsroom/
+- type: DomainSecurity
+  url: security/cambium-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

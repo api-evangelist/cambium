@@ -1,0 +1,14 @@
+{
+  "repo": "cambium",
+  "feeds": [
+    {
+      "source": "https://www.cambium-usa.com/privacy-policy/",
+      "feed_url": "https://www.cambium-usa.com/feed/",
+      "title": "",
+      "saved": 2,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 2,
+  "fetched": "2026-07-20T13:31:34Z"
+}
